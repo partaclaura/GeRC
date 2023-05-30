@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://profs.info.uaic.ro/~stefan.negru/personas/ -->
+<html lang="en-us" wtx-context="C0FE5468-956F-47C1-8543-51BF5353C5FD"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HCI City Access(ibility)</title>
+<style>
+	img { border: none; }
+ul {margin:0; list-style-type:none;}
+fieldset { border: none; margin:0; padding: 0;}
+a {color:#3CA2A2;}
+a:hover {color:#215A6D;}
+legend { display: none; }
+.hidden { display:none;}
+.clear {clear:both;}
+
+body{
+	margin: 0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background:#fff;
+	display: flex;
+	flex-direction: column;
+}
+
+header {padding:5px; background-color: #2D2D29; overflow: hidden;}
+header h1 { margin:5px 10px 0px 10px; padding:0; color: #DFECE6; font-size:1.8em; float:left;}
+header #logo {float:right; margin: 0;}
+article.persona {background-color: #fff; border:solid 1px #493736; float:left; margin:5px 10px; width:48%; }
+.personaInfo figure {margin:0; padding: 0;}
+.personaInfo {border-bottom:solid 1px #493736; padding:5px; overflow: hidden;}
+.personaInfo img {float:left; }
+.personaInfo .personaBackground {float:right; width:73%; }
+.personaInfo h3, .personaInfo .personaBackground h4, .personaInfo .personaBackground h5, .personaDetails h4, .personaDetails h5, .personaScenarios h5, .otherDetails h5 {margin:0 0 5px; padding:5px; background-color: #2D2D29; color: #DFECE6; }
+.personaInfo .personaBackground ul, .personaDetails ul, .personaScenarios ul, .otherDetails ul {margin:0; padding:0 5px;}
+.personaInfo p, .personaDetails p, .personaScenarios p, .otherDetails p {margin:2px; padding:0;}
+
+.personaDetails ul li {list-style-type: square; margin:0 0 0 15px;}
+.personaDetails {border-bottom:solid 1px #493736; overflow: hidden; padding: 5px;}
+.personaDetails .detailsLeft h5 {padding: 5px 5px 5px 10px;}
+.personaDetails .detailsLeft {width:38%; float:left; margin-right:5px;}
+.personaDetails .detailsLeft .leftGroup {}
+.personaDetails .detailsRight {width:61%; float: right; }
+
+.personaScenarios, .otherDetails {clear:both; padding:5px; overflow: hidden;}
+.personaScenarios {border-bottom:solid 1px #493736;}
+
+.discussionPoints ul li {list-style: circle; padding: 5px;}
+.subpoint h4 {padding-left: 10px;}
+.designs3Grid{
+	display: grid;
+	grid-template-columns: 50% 25% 25%;
+}
+.designsGrid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.designsItem1{
+	grid-column-start: 1;
+  	grid-column-end: 2;
+}
+.designsItem2{
+	grid-column-start: 2;
+  	grid-column-end: 3;
+	
+}
+.designsItem3{
+	grid-column-start: 3;
+  	grid-column-end: 4;
+}
+
+
+footer {clear:both; margin:5px 10px; padding:0;}
+
+@media screen and (max-width:1200px){
+	.personaInfo .personaBackground {float:left; width:100%; margin-top:5px;}
+}
+@media screen and (max-width:1120px){
+	.personaDetails .detailsLeft, .personaDetails .detailsRight {width:100%; float: left; }
+	article.persona {width:98%; margin: 5px 2px;} 
+	.designs3Grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.designsGrid{
+	display: grid;
+	grid-template-columns: 100%;
+}
+.designsItem1{
+	grid-column-start: 1;
+  	grid-column-end: 2;
+}
+.designsItem2{
+	grid-column-start: 1;
+  	grid-column-end: 2;
+	
+}
+.designsItem3{
+	grid-column-start: 2;
+  	grid-column-end: 3;
+}
+}
+
+@media print {
+	
+	body{
+		margin:0;
+		padding:0;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		background:#fff;
+	}
+	header {margin: 0;}
+	header #logo {display: none;}
+	article.persona {width:99%; margin:10px 2px;} 
+	.personaInfo h3, .personaInfo .personaBackground h4, .personaInfo .personaBackground h5, .personaDetails h4, .personaDetails h5, .personaScenarios h5, .otherDetails h5 {margin:0 0 5px; padding:5px; background-color: #ccc; color: #111; 
+	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+	.personaDetails .detailsLeft {width:38%; float:left; margin-right:5px;}
+	.personaDetails .detailsRight {width:61%; float: right; }
+	.personaScenarios {border-bottom:solid 1px #493736;}
+}
+
+</style>
+
+</head>
+
+<body>
+<header>
+	<h1>Personas</h1>
+
+</header>
+<section>
+	<article itemscope="" itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Primary</h3>
+			<figure>
+				<img itemprop="image" src="man_img.png" alt="persona image">
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">Andrei</span> <span itemprop="familyName">Popescu</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="2001-03-20">03/20/2001</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Male</span></li>
+						<li itemprop="location" itemscope="" itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
+                        <li itemprop="worksFor" itemscope="" itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Organization Name</span>, <span itemprop="jobTitle">Engineer</span></li>
+						<li itemprop="alumniOf" itemscope="" itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name"> "Alexandru Ioan Cuza" University of Iasi</span></li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<ul>
+						<li>Andrei is a recently graduated young adult, and he just moved into a new apartment;</li>
+						<li>He can work on-site and from home;</li>
+                        <li>He likes to engage in social events organized by his friends;</li>
+                        <li>He likes to be organized and plan ahead;</li>
+						<li>He is tech-savvy.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<ul>
+						<li>Practical Goals: 
+                            <ul>
+                                <li>He wants to be efficient at work everyday;</li>
+                                <li>He wants to enjoy his free time.</li>
+                            </ul>
+                        </li>
+						<li>Personal Goals: 
+							<ul>
+								<li>Building a successful career;</li>
+								<li>Having an active social life;</li>
+                                <li>Creating a comfortable home.</li>
+							</ul>
+                            </li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<ul>
+						<li>Too much time spent on changing settings for individual devices in his home;</li>
+						<li>In winter, the apartment is cold when he gets home, and he has to wait awhile for it to warm up.</li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p>Andrei is a recently graduated young adult who just started working at a tech company. He also moved into a new apartment.
+                    and is starting to invest in smart devices, which could make his daily life easier.
+				   However, it can get overwhelming to keep track of all his devices.</p>
+                <p>He wants to be efficient and organized in regards to his career, which implies that he tries not to be distracted at work by
+                    worries (for example, what if he left the lights on at home?).
+                </p>
+				<p>He also wants to waste as little free time as possible in order to attend social events.</p>
+				<p>Since he is tech-savvy, he keeps his smartphone close by permanently and also uses his laptop or PC quite often.</p>
+			</div>
+		</div>
+	</article>
+	<article itemscope="" itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Primary</h3>
+			<figure>
+				<img itemprop="image" src="woman_img.png" alt="persona image">
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">Maria</span> <span itemprop="familyName">Ionescu</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1985-07-24">07/24/1985</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Female</span></li>
+						<li itemprop="location" itemscope="" itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Bucharest, Romania</span></li>
+                        <li itemprop="worksFor" itemscope="" itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Organization Name</span>, <span itemprop="jobTitle">Manager</span></li>
+						<li itemprop="alumniOf" itemscope="" itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name"> Academia de Studii Economice din Bucuresti</span></li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<ul>
+						<li>Maria is a hard working manager at a big company;</li>
+						<li>She is the mother of a 11 year old girl;</li>
+						<li>She has to commute to work everyday and has to participate in frequent work trips.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<ul>
+						<li>Practical Goals: 
+							<ul>
+								<li>She wants to maintain a balanced work and family life;</li>
+								<li>She wants to make sure that her daughter is safe while she is at work without disrupting her workflow significantly.</li>
+							</ul>
+						</li>
+						<li>Personal Goals: 
+							<ul>
+								<li>To take care of her mental health by reducing her stress level;</li>
+							</ul> 
+						</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<ul>
+						<li>Rising concerns regarding her home and daughter while she is away (for example, an unadequate temperature which may harm her daughter's health);</li>
+						<li>Difficulty trying to teach her daughter how to properly interact with smart devices;</li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p>Maria is a manager at a big company and the mother of an 11-year-old. She is required to be away from home frequently due to her career.
+                    She wants to maintain a balanced work and home life without damaging her mental health.</p>
+                    <p>Since she is trying to organize her life better, she uses several smart devices in her home.</p>
+                    She has to teach her daughter how to properly interact with the devices in order to make sure she can safely
+                    navigate around the house while she is away. She considers that easy to learn gestures for basic devices such as lightbulbs could help
+                    her daughter.
+                    <p>She also has to monitor the state in which some devices are while she is at work or on a business trip in order to be less worried about
+                    her family and savings.</p>
+				
+			</div>
+		</div>
+	</article>
+    <article itemscope="" itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Secondary</h3>
+			<figure>
+				<img itemprop="image" src="man_img.png" alt="persona image">
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">Alex</span> <span itemprop="familyName">Stan</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="2003-03-10">03/10/2003</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Male</span></li>
+						<li itemprop="location" itemscope="" itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
+						<li itemprop="alumniOf" itemscope="" itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name"> "Alexandru Ioan Cuza" University of Iasi</span></li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<ul>
+						<li>Alex is first-year student;</li>
+						<li>He is visually impaired;</li>
+						<li>He lives with his older brother in a modern apartment.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<ul>
+						<li>Practical Goals: 
+							<ul>
+								<li>He wants to use his time wisely and focus on studying;</li>
+								<li>He wants to be able to help his brother around the apartment;</li>
+                                <li>He wants to be able to move around the apartment with ease;</li>
+							</ul>
+						</li>
+						<li>Personal Goals: 
+							<ul>           
+								<li>To have an enjoyable student experience;</li>
+								<li>To become as independent as possible.</li>
+							</ul> 
+						</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<ul>
+						<li>Difficulty interacting with several devices around the apartament due to their placement;</li>
+						<li>Limited accessibility to some buttons and settings on some devices (do not offer support for visually impaired people);</li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p>Alex is a university student who is currently pursuing a degree in computer science. 
+                    He was born with a visual impairment. Due to this disability, he often finds it difficult to get used to new places.</p>
+                <p>Considering that he is in his first year of university, he had to move to Iasi with his brother, who already lived there.
+                    He is still struggling to get used to the new apartment.
+                    Even though his brother has some smart devices, Alex is still struggling to figure out where they are positioned. Also, some of these
+                    devices don't offer support for visually impaired individuals.
+                </p>
+                <p>Alex would like to be able to easily interact with these devices, despite their positioning and accessibility, in order to become more
+                    independent and also save time in order to properly focus on his studies. He considers that it would be ideal for him to be able to
+                    use vocal commands on his phone in order to interact with smart devices and also pick custom gestures to control those devices.</p>
+
+			</div>
+		</div>
+	</article>
+    <article itemscope="" itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Secondary</h3>
+			<figure>
+				<img itemprop="image" src="woman_img.png" alt="persona image">
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">Sara</span> <span itemprop="familyName">Ionescu</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="2012-01-02">01/02/2012</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Female</span></li>
+						<li itemprop="location" itemscope="" itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Bucharest, Romania</span></li>
+						<li itemprop="alumniOf" itemscope="" itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name"> Primary School</span></li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<ul>
+						<li>Sara is currently attending primary school;</li>
+						<li>She is intrested in technology;</li>
+						<li>She has to learn to be more careful around the house while her parents are away.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<ul>
+						<li>Practical Goals: 
+							<ul>
+								<li>She wants to learn more about technology and how to properly use it;</li>
+								<li>She wants to become more helpful around the house.</li>
+							</ul>
+						</li>
+						<li>Personal Goals: 
+							<ul>
+								<li>She wants to show her parents that she can be responsible;</li>
+							</ul> 
+						</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<ul>
+						<li>Difficulty using and understanding complex smart devices;</li>
+						<li>Difficulty remembering all gestures used by her parents;</li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p>Sara is an 11-year-old primary school student. Due to her parents jobs, she often finds herself home alone.</p>
+                <p>She is trying to show her parents that she is becoming more responsible and asks them to create a child account so she can
+                   be able to control certain devices, with restrictions applied by them. She considers that if she can add some easier-to-learn 
+                   gestures to device settings, she can better understand how they work and also save her parents time and concerns.</p>
+			</div>
+		</div>
+	</article>
+    </section>
+    </body>
+    </html>
