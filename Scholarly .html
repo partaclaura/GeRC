@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://profs.info.uaic.ro/~stefan.negru/personas/ -->
+<html lang="en-us" wtx-context="C0FE5468-956F-47C1-8543-51BF5353C5FD"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HCI City Access(ibility)</title>
+<style>
+	img { border: none; }
+ul {margin:0; list-style-type:none;}
+fieldset { border: none; margin:0; padding: 0;}
+a {color:#3CA2A2;}
+a:hover {color:#215A6D;}
+legend { display: none; }
+.hidden { display:none;}
+.clear {clear:both;}
+
+body{
+	margin: 0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background:#fff;
+	display: flex;
+	flex-direction: column;
+}
+
+header {padding:5px; background-color: #2D2D29; overflow: hidden;}
+header h1 { margin:5px 10px 0px 10px; padding:0; color: #DFECE6; font-size:1.8em; float:left;}
+header #logo {float:right; margin: 0;}
+article.persona {background-color: #fff; border:solid 1px #493736; float:left; margin:5px 10px; width:48%; }
+.personaInfo figure {margin:0; padding: 0;}
+.personaInfo {border-bottom:solid 1px #493736; padding:5px; overflow: hidden;}
+.personaInfo img {float:left; }
+.personaInfo .personaBackground {float:right; width:73%; }
+.personaInfo h3, .personaInfo .personaBackground h4, .personaInfo .personaBackground h5, .personaDetails h4, .personaDetails h5, .personaScenarios h5, .otherDetails h5 {margin:0 0 5px; padding:5px; background-color: #2D2D29; color: #DFECE6; }
+.personaInfo .personaBackground ul, .personaDetails ul, .personaScenarios ul, .otherDetails ul {margin:0; padding:0 5px;}
+.personaInfo p, .personaDetails p, .personaScenarios p, .otherDetails p {margin:2px; padding:0;}
+
+.personaDetails ul li {list-style-type: square; margin:0 0 0 15px;}
+.personaDetails {border-bottom:solid 1px #493736; overflow: hidden; padding: 5px;}
+.personaDetails .detailsLeft h5 {padding: 5px 5px 5px 10px;}
+.personaDetails .detailsLeft {width:38%; float:left; margin-right:5px;}
+.personaDetails .detailsLeft .leftGroup {}
+.personaDetails .detailsRight {width:61%; float: right; }
+
+.personaScenarios, .otherDetails {clear:both; padding:5px; overflow: hidden;}
+.personaScenarios {border-bottom:solid 1px #493736;}
+
+.discussionPoints ul li {list-style: circle; padding: 5px;}
+.subpoint h4 {padding-left: 10px;}
+.designs3Grid{
+	display: grid;
+	grid-template-columns: 50% 25% 25%;
+}
+.designsGrid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.designsItem1{
+	grid-column-start: 1;
+  	grid-column-end: 2;
+}
+.designsItem2{
+	grid-column-start: 2;
+  	grid-column-end: 3;
+	
+}
+.designsItem3{
+	grid-column-start: 3;
+  	grid-column-end: 4;
+}
+
+
+footer {clear:both; margin:5px 10px; padding:0;}
+
+@media screen and (max-width:1200px){
+	.personaInfo .personaBackground {float:left; width:100%; margin-top:5px;}
+}
+@media screen and (max-width:1120px){
+	.personaDetails .detailsLeft, .personaDetails .detailsRight {width:100%; float: left; }
+	article.persona {width:98%; margin: 5px 2px;} 
+	.designs3Grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.designsGrid{
+	display: grid;
+	grid-template-columns: 100%;
+}
+.designsItem1{
+	grid-column-start: 1;
+  	grid-column-end: 2;
+}
+.designsItem2{
+	grid-column-start: 1;
+  	grid-column-end: 2;
+	
+}
+.designsItem3{
+	grid-column-start: 2;
+  	grid-column-end: 3;
+}
+}
+
+@media print {
+	
+	body{
+		margin:0;
+		padding:0;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		background:#fff;
+	}
+	header {margin: 0;}
+	header #logo {display: none;}
+	article.persona {width:99%; margin:10px 2px;} 
+	.personaInfo h3, .personaInfo .personaBackground h4, .personaInfo .personaBackground h5, .personaDetails h4, .personaDetails h5, .personaScenarios h5, .otherDetails h5 {margin:0 0 5px; padding:5px; background-color: #ccc; color: #111; 
+	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+	.personaDetails .detailsLeft {width:38%; float:left; margin-right:5px;}
+	.personaDetails .detailsRight {width:61%; float: right; }
+	.personaScenarios {border-bottom:solid 1px #493736;}
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+
+</head>
+
+<body>
+<section>
+	<div class="discussionPoints" style="margin-top: 1%;">
+		<div class="subpoint introductionInGeRC">
+			<header>
+				<h1>Introduction in GeRC</h1>
+			</header>
+			<p style="margin-left: 1%;">We wanted to create a tool under the form of a software product which should help help users have more dynamic lifestyles, starting with their home appliances. Under the premise that more and more people in Romania are starting to embrace the idea of remote control by buying smart appliances, we create an environment to have all of them connected and in one place.<br><br>The product is designed to be supported on 2 platforms: desktop and mobile for better flexibility. On these platforms, users can interact using one of the following 3 paradigms:
+			<ol>
+				<li><b>Keyboard (desktop + mobile):</b> the keyboard is only required on desktop and mobile for the login part, afterwards the keyboard is avoided;</li>
+				<li><b>Mouse (desktop):</b> only clicks are required to interact with the product, keeping it simple and similar to gesture (mobile) interactions;</li>
+				<li><b>Gesture (mobile):</b> just tapping the buttons should suffice to roam in the mobile application, but device's on / off sliders could be swiped instead;</li>
+				<li><b>Vocal (mobile):</b> when users are on the mobile version, they can activate the voice assistant with a voice command and then vocalize his intented action (ex.: turn on / off a certain device).</li>
+			</ol>
+			</p>
+
+		</div>	
+
+		<br>
+		<div class="subpoint interactionDesignPatterns">
+			<header>
+				<h1>Interaction Design Patterns</h1>
+			</header>
+			
+			<ul>
+				<li>There are some intrinsic difficulties to be expected along the way, as in the fear of technology (people who love the idea, but would be afraid that it would behave unexpectedly) or having too many devices and/or settings on each device which are increasingly difficult depending on overall experience and number of applications previously required. Therefore, there are more than several tentatives of solution from where we could take inspiration, but the result would be an actual combination of them as keeping the user's needs in mind remains the highest priority.</li>
+				<li>The software is intended to be used as a master command for home appliances. The main actions to be taken from the application would be adding / removing devices, turning them on / off and changing gestures which control them.</li>
+				<li>Our product is designed for daily use, for short periods of time, keeping the user interaction simple and easy to use. At the same time, we have taken into consideration portability by making the software in two versions: desktop and mobile.</li>
+				<li>As presented in the persona documents, the intended audience falls under the umbrella of tech savvy individuals, busy parents and people working prolonged periods of time away from home.</li>
+				<li>Regarding the software's usability, we have taken into consideration: learnability (suggestive icons for buttons), efficency (avoidance of overly complicated menus), errors (an user cannot make mistakes except for login section) and satisfaction (the design is simple, cute, suggesting repetitive uses).</li>
+				<li>Practical examples: 
+					<ul>
+						<li>Mobile: top bar (navigation), grids (layout), tap (actions and commands), tables as lists (tables and lists) and label, input, active, textarea, slider, single-select, password, email, pop-up on-screen integrated keyboard (form patterns);</li>
+						<li>Desktop: top bar (navigation), bottom bar (navigation - help), grids (layout), tap (actions and commands), tables as lists (tables and lists) and label, input, active, textarea, slider, single-select, password, email (form patterns);</li>
+						<li>Vocal: vocal commands (actions and commands), dedicated screens (form patterns - voice screen).</li>
+					</ul>
+				</li>
+				<div class="row">
+				  <div class="column">
+				    <img src="Sketches/MobileSketch.jpg" alt="Mobile Sketch" width="90%" style="padding : 20px; border: 1px solid #555;">
+				  </div>
+				  <div class="column">
+				    <img src="Sketches/WebSketch1.jpg" alt="Mobile Sketch 1" width="60%" style="padding : 20px; border: 1px solid #555;">
+				  </div>
+				  <div class="column">
+				    <img src="Sketches/WebSketch2.jpg" alt="Mobile Sketch 2" width="90%" style="padding : 20px; border: 1px solid #555;">
+				  </div>
+				</div>
+			</ul>
+		</div>
+	<br>
+		<div class="subpoint userFlow">
+			<header>
+				<h1>User Flow</h1>
+			</header>
+			<h4>User flow for first persona:</h4>
+			<ol>
+				<li><b>Login screen</b>: submit valid username and password. It also has the posibility to sign up or reset the password in case it is forgotten.</li>
+				<li><b>Add device</b> (if not already existing). Only required once per device unless the user decides to unpair and pair again the device with the software. Any device connected to te local Wi-Fi is available for pairing.</li>
+				<li><b>Select device to control</b>. Each device has a pictogram representing itself, with two possible statuses (on and off) for easier identification.</li>
+				<li><b>Turn device on / off</b>, change device settings, remove device. In the use case of turning the device on / off, the application would refresh the device screen with the new status. This is easy to identify by the usual left-right slider.</li>
+			</ol>
+			<!-- <p style="margin-left: 1%;">Although the change settings menu is supposed to be reached out significantly less frequent than turning the device on / off which is expected to be done daily, both use cases are part of the same user flow for more simplicity and repetitivity. As changing the status should be as easy as possible and should enter fast into the users muscle memory, we apreciated that changing the settings should be similar, especially for first time setup when users are not familiar with the workflow or when they often have to change the settings to match their household requirements.</p> -->
+			<img src="UserFlows/UserFlow1.jpg" alt="user flow 1" width="25%" style="padding : 20px; border: 1px solid #555; margin-left: 2%;">
+
+			<h4 style="margin-top: 2%">User flow for second persona:</h4>
+			<ol>
+				<li><b>Login screen</b>: submit valid username and password. It also has the posibility to sign up or reset the password in case it is forgotten.</li>
+				<li><b>Add device</b> (if not already existing). Only required once per device unless the user decides to unpair and pair again the device with the software. Any device connected to te local Wi-Fi is available for pairing.</li>
+				<li><b>Select device to control</b>. Each device has a pictogram representing itself, with two possible statuses (on and off) for easier identification.</li>
+				<li><b>Enter change gesture menu.</b> Each gesture also has a pictogram which makes it easy for the user to consider pressing in order to modify.</li>
+				<li><b>Select which user's gestures should be modified</b> (if needed). The currently selected user, corresponding by default to the currently logged user, is highlighted on the top of the screen. The user then can choose whose gesture to modify (if the account plan allows him to do so, similar to local admin rights, on appliances level).</li>
+				<li><b>Pick the new gesture.</b> As upper mentioned, the gestures themselves are easy to understand and identify, but on the gestures screen, they can also be highlighted with green (for the already selected gesture on that action) or red (for gestures already selected but on different actions).</li>
+				<li><b>Save / cancel changes.</b> At the bottom of the screen are the usual save (green) and cancel (red highlight) buttons which will redirect the user to the previous screen (device screen). The cancel action can also be triggered by pressing the back and home buttons at the top of the screen.</li>
+			</ol>
+			<img src="UserFlows/UserFlow2.jpg" alt="user flow 2" width="25%" style="padding : 20px; border: 1px solid #555; margin-left: 2%;">
+			
+		</div>
+	<br>
+		<div class="subpoint affectiveFactors&Emotion">
+			<header>
+				<h1>Affective Factors & Emotion</h1>
+			</header>
+			<ul>
+				<h4>Aesthetics</h4>
+				<p style="margin-left: 1%;">The layouts, graphics and icons used in the software are big, rounded and cartoonish drawn in order to create a visually pleasing appealing interface. The colors are bright, vibrant, neutral for the theme blue and the typography is short and simplistic to contribute to the overall emotional tone of the interface, making it firendlier.</p>
+
+				<h4>Consistency</h4>
+				<p style="margin-left: 1%;">The consistency is a very relevant factor, as the software is intended for daily use (turning devices on / off), therefore creating a mental mapping of the app and making use of the muscle memory are key. In this sense, the workflows are similar, they have very little to no inconsistencies regarding the steps taken, even for different device usage (web vs. mobile).</p>
+
+				<h4>Branding and Personality</h4>
+				<p style="margin-left: 1%;">The product's personality relies on the theme colors, especially the blue, present on each and every case, combined with clean lines and simple pictograms create a branding balanced between professional and childish.</p>
+
+				<h4>Feedback and Microinteractions</h4>
+				<p style="margin-left: 1%;">Feedback comes very important in the software's features, considering that remote control actions are not required to be seen by user itself at the moment of interaction. Therefore, adding colorful microinteractions and visual redirects become crucial in avoiding the user to turn the device on / off numerous times thinking it didn't trigger anything.</p>
+
+				<h4>Emotional Context</h4>
+				<p style="margin-left: 1%;">The emotional context in which the software will be used falls more under the tool apps context, where the design should be simple and efficient. This factor brings the product closer to the objective of daily usage.</p>
+
+				<h4>User Empathy</h4>
+				<p style="margin-left: 1%;">Considering that empathy can be an crucial aspect of emotional design, we have tested and interacted with several already existing solutions in order to find their strengths and especially their weaknesses and apply / fix them into GeRC.</p>
+			</ul>
+		</div>
+	<br>
+	<div class="subpoint liveDemo">
+		<header>
+			<h1>Live Demo</h1>
+		</header>
+		<div style="position:relative;width:fit-content;height:fit-content;margin-top: 1%;margin-left: 2%;">
+            <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/zkMCvmwPZSn/embed" width="640" height="360"></iframe>
+        </div>
+	</div>
+	<br>
+	<div class="contribution">
+		<header>
+			<h1>Contribution</h1>
+		</header>
+		<ul style="margin-top:1%">
+			<li>
+				<b>Andrisan Ana:</b>
+				<ul>
+					<li>Designed both the mobile an web interfaces of the software;</li>
+					<li>Realised the user flow for the first primary persona into the mobile interface using Figma prototypes;</li>
+					<li>Realised the user flow for the second primary persona into the web interface using Figma prototypes.</li>
+				</ul>
+			</li>
+			<li>
+				<b>Boboc Raul:</b>
+				<ul>
+					<li>Identified the personas and their user flows;</li>
+					<li>Recorded short demonstrative videos for even better visualization of the user workflows;</li>
+					<li>Provided a live demonstrative video to show how the software would interact with household appliances (ex.: lights).</li>
+				</ul>
+			</li>
+			<li>
+				<b>Partac Laura:</b>
+				<ul>
+					<li>Created the personas (2 primary and 2 secondary) and identified their usability problems;</li>
+					<li>Drew the schematics for the user flows;</li>
+					<li>Drew the sketches for both web and mobile versions.</li>
+				</ul>
+			</li>
+		</ul>
+
+	</div>
+	</div>
+	</section>
+<footer id="footer">
+	<span id="license"><a href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0; margin-bottom: 1%; margin-top: 1%;" src="./Personas Template_files/80x15.png"></a></span>
+</footer>
+<div id="torrent-scanner-popup" style="display: none;"></div></body></html>
